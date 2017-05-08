@@ -5,3 +5,6 @@ Web based map application that:
 3.Interactive markers, on hover show place name, on click show directions,duration and distance.
 4.Can add new places that are to be tagged under "Amusement Park".
 5.Retrieve new user added places from DB and display as markerd places.
+
+
+Actual Website is on IBM Bluemix:https://placesgmaps.mybluemix.net/
