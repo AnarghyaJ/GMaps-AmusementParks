@@ -1,0 +1,307 @@
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      
+      
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #1A2C56;
+        color:#1A2C56;
+      }
+      
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+	
+		
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 30%;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 25%;
+        
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+		.fb-like {
+		color:white;}
+		
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+      .radiusBox {
+      margin-left:30%;
+      margin-top:5px;
+      display:inline-block;
+      border-radius:3px;
+      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+      font-family: Roboto;
+      font-size:16px;
+      font-weight:400;
+      position:inherit;
+      background-color: #1A2C56;
+      padding: 0 11px 0 13px;
+     color:#d1a683;
+     margin-bottom:15px;
+     height:165px;
+      width:450px;
+      }
+      .button{
+font-size: 1em;
+  padding: 5px;
+  color: #fff;
+  border: 2px solid  #f4b642;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  margin-top:5px;
+  cursor: pointer;
+  float:center;
+  margin-left:50px;
+transition: all 0.3s ease-out;
+  overflow: visible;
+ 
+		}
+		
+		.button:hover {
+  background: #f4b642;
+}
+      .radiusBox #radius{
+       width:100px;
+       font-family:Roboto;
+       font-weight:300;
+       height:20px;
+       background-color: #f4b642;
+       font-style:italic;
+       text-overflow: ellipsis;
+       border-radius:4px;
+        margin-left: 12px;
+      width:60px;
+       
+      }
+      
+      .radiusBox #nbsearch{
+      font-weight:350;
+     font-family: Roboto;
+     font-weight:400;
+     border-radius:4px;
+     margin-left:10px;
+     font-style:italic;
+     cursor:pointer;
+     height:25px;
+      color:white;
+       background-color:#1A2C56;
+      }
+     #sbutton{
+     	
+     font-size: 1em;
+  padding: 5px;
+  color: #fff;
+  border: 2px solid  #f4b642;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  margin-top:5px;
+  cursor: pointer;
+  float:center;
+  margin-left:50px;
+  background-color:#1A2C56;
+transition: all 0.3s ease-out;
+  overflow: visible;	
+     	
+     } 
+     #sbutton:hover{
+     	
+     	 background: #f4b642;
+     	
+     }
+     .radiusBox #setbtn{
+     font-weight:350;
+     font-family: Roboto;
+     margin-left: 12px;
+     font-weight:400;
+     border-radius:3px;
+     height:25px;
+     cursor:pointer;
+     width:40px;
+    font-style:italic;
+     color:white;
+      background-color:#1A2C56;
+     }
+     #duration{
+     width:100px;
+     height:20px;
+     resize:none;
+       font-family:Roboto;
+       font-weight:300;
+      margin-top:5px;
+       background-color: #f4b642;
+       font-style:italic;
+       text-overflow: ellipsis;
+       border-radius:4px;
+        margin-left: 12px;
+        float:left;
+      width:60px;
+     color:black;
+     margin-bottom: 5px;
+     border-bottom-style: inset;
+     }
+     
+     #distance{
+     width:100px;
+     height:20px;
+       font-family:Roboto;
+       font-weight:300;
+		margin-top:5px;
+		resize:none;
+       background-color: #f4b642;
+       font-style:italic;
+       text-overflow: ellipsis;
+       border-radius:4px;
+        margin-left: 12px;
+        float:left;
+      width:60px;
+     color:black;
+     margin-bottom: 5px;
+     border-bottom-style: inset;
+     
+     
+     }
+     .popup{
+   margin-left:30%;
+   text-align:center;
+  margin-bottom:20px;
+  padding: 20px;
+  background-color:#1A2C56;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow: visible;
+     }
+     
+     .popup #lat{width:100px;
+     			margin-left: 30px;
+	
+     
+     }
+     .popup #lng{width:100px;
+     			margin-left: 17px;
+	
+     
+     }
+     .popup #place{width:100px;
+     			margin-left: 6px;
+	
+     
+     }
+     .popup input[type=submit]{
+  font-size: 1em;
+  color: #fff;
+  background-color:#1A2C56;
+  border: 2px solid  #f4b642;
+  border-radius:3px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top:10px;
+transition: all 0.3s ease-out;
+  overflow: visible;
+  height:30px;
+     }
+     .popup input[type=button]:hover{
+     background-color: #f4b642;
+     }
+     .popup h4 {
+  margin-top: 0;
+  color: #f4b642;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.popup .close:hover {
+  color: #f4b642;
+}
+
+      .container{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  color:white;
+  opacity: 0;
+      }
+      
+      .container:target{
+      visibility: visible;
+      opacity:1 ;
+      }
+    
